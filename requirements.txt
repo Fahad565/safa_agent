@@ -1,0 +1,3 @@
+google-genai
+streamlit
+pandas<3.0.0

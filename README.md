@@ -1,5 +1,23 @@
+# safa_agent
 
-# MpesaLNMApp-UITemplate
-Fullstack MpesaC2BIntegration | NodeJs &amp; MongoDB | Frontend Boilerplate code
-- This is a front end template for a C2BAPI web app.
-- View the code walkthrough [here](https://medium.com/@junem3ta/fullstack-lipanampesa-api-web-app-with-nodejs-mongodb-atlas-d0c263e56862)
+Safa Glow-Up Coach - AI-powered organic beauty and home care assistant powered by Streamlit and Gemini.
+
+## Features
+- **Product Recommender**: Recommends Safa products based on user skin/hair/beard concerns or goals.
+- **30-Day Routine Builder**: Creates customized week-by-week plans.
+- **Ingredient Safety Checker**: Scans ingredient lists for harsh chemicals and suggests natural alternatives.
+- **Symptom Troubleshooter**: Provides coaching advice during transition periods.
+
+## Setup & Running
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+2. Configure Streamlit Secrets in `.streamlit/secrets.toml`:
+   ```toml
+   GEMINI_API_KEY = "your-api-key-here"
+   ```
+3. Run the Streamlit app:
+   ```bash
+   streamlit run safa_app.py
+   ```
